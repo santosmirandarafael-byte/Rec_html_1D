@@ -1,155 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empatia e Cooperação</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Empatia e Cooperação</title>
 
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-            font-family:Arial, Helvetica, sans-serif;
-        }
+<style>
 
-        body{
-            background:linear-gradient(135deg,#4F46E5,#06B6D4);
-            min-height:100vh;
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            padding:40px;
-        }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
-        .container{
-            max-width:900px;
-            background:white;
-            border-radius:20px;
-            padding:40px;
-            box-shadow:0 15px 40px rgba(0,0,0,.25);
-        }
+body{
+    background:#1E1E1E;
+    color:#F5F5F5;
+    padding:40px;
+}
 
-        h1{
-            text-align:center;
-            color:#4F46E5;
-            font-size:2.7em;
-            margin-bottom:20px;
-        }
+.container{
+    max-width:1000px;
+    margin:auto;
+}
 
-        p{
-            color:#444;
-            line-height:1.8;
-            font-size:1.1em;
-            margin-bottom:20px;
-            text-align:justify;
-        }
+h1{
+    text-align:center;
+    color:#4FC3F7;
+    margin-bottom:30px;
+    font-size:3em;
+}
 
-        .cards{
-            display:flex;
-            gap:20px;
-            flex-wrap:wrap;
-            margin:30px 0;
-        }
+.card{
+    background:#2D2D2D;
+    border:2px solid #424242;
+    border-radius:15px;
+    padding:25px;
+    margin-bottom:25px;
+    box-shadow:0 8px 18px rgba(0,0,0,.35);
+}
 
-        .card{
-            flex:1;
-            min-width:240px;
-            background:#f5f7ff;
-            padding:20px;
-            border-radius:15px;
-            border-left:6px solid #4F46E5;
-            transition:.3s;
-        }
+p{
+    line-height:1.8;
+    font-size:18px;
+    margin-bottom:15px;
+}
 
-        .card:hover{
-            transform:translateY(-8px);
-            box-shadow:0 10px 20px rgba(0,0,0,.15);
-        }
+ul{
+    margin-left:25px;
+}
 
-        ul{
-            margin-left:20px;
-            color:#333;
-            line-height:2;
-        }
+li{
+    margin:12px 0;
+}
 
-        li{
-            margin-bottom:8px;
-        }
+.destaque{
+    color:#29B6F6;
+    font-weight:bold;
+}
 
-        .botao{
-            display:inline-block;
-            margin-top:30px;
-            background:#4F46E5;
-            color:white;
-            text-decoration:none;
-            padding:14px 28px;
-            border-radius:30px;
-            font-weight:bold;
-            transition:.3s;
-        }
+.botao{
+    display:inline-block;
+    margin-top:20px;
+    padding:14px 28px;
+    background:#29B6F6;
+    color:#F5F5F5;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    transition:.3s;
+}
 
-        .botao:hover{
-            background:#06B6D4;
-        }
+.botao:hover{
+    background:#4FC3F7;
+}
 
-        .rodape{
-            text-align:center;
-            margin-top:35px;
-            color:#777;
-            font-size:.95em;
-        }
-    </style>
+.rodape{
+    text-align:center;
+    margin-top:30px;
+    color:#AAAAAA;
+}
+
+</style>
+
 </head>
-
 <body>
 
 <div class="container">
 
     <h1>Empatia e Cooperação</h1>
 
-    <p>
-        A empatia é a capacidade de compreender os sentimentos e as perspectivas
-        das outras pessoas. Quando praticamos a empatia, fortalecemos os
-        relacionamentos e criamos ambientes mais acolhedores, respeitosos e
-        colaborativos.
-    </p>
-
-    <div class="cards">
-
-        <div class="card">
-            <p><strong>Empatia</strong> significa ouvir, compreender e respeitar as
-            diferenças, promovendo convivência harmoniosa entre todos.</p>
-        </div>
-
-        <div class="card">
-            <p><strong>Cooperação</strong> é trabalhar em equipe, compartilhando
-            conhecimentos e ajudando outras pessoas para alcançar objetivos em
-            comum.</p>
-        </div>
-
+    <div class="card">
+        <p>
+            A <span class="destaque">empatia</span> é a capacidade de compreender os
+            sentimentos e as necessidades das outras pessoas. Ela fortalece os
+            relacionamentos e promove um ambiente mais respeitoso.
+        </p>
     </div>
 
-    <p>
-        Pequenas atitudes fazem grande diferença no dia a dia. A colaboração
-        incentiva o respeito, melhora a comunicação e contribui para um ambiente
-        escolar, profissional e social mais saudável.
-    </p>
+    <div class="card">
+        <p>
+            A <span class="destaque">cooperação</span> acontece quando pessoas trabalham
+            juntas para alcançar um objetivo comum, compartilhando ideias,
+            responsabilidades e soluções.
+        </p>
+    </div>
 
-    <ul>
-        <li>Escutar com atenção.</li>
-        <li>Respeitar opiniões diferentes.</li>
-        <li>Oferecer ajuda quando possível.</li>
-        <li>Valorizar o trabalho em equipe.</li>
-        <li>Compartilhar conhecimentos.</li>
-    </ul>
+    <div class="card">
+        <p>Atitudes que demonstram empatia e cooperação:</p>
 
-    <a href="https://pt.wikipedia.org/wiki/Empatia" class="botao">
-        Saiba mais
-    </a>
+        <ul>
+            <li>Ouvir com atenção.</li>
+            <li>Respeitar opiniões diferentes.</li>
+            <li>Oferecer ajuda quando necessário.</li>
+            <li>Trabalhar em equipe.</li>
+            <li>Compartilhar conhecimentos.</li>
+        </ul>
+
+        <a href="https://pt.wikipedia.org/wiki/Empatia" class="botao">
+            Saiba mais
+        </a>
+    </div>
 
     <div class="rodape">
-        <p>Construindo um mundo melhor através da empatia e da cooperação.</p>
+        <p>Empatia + Cooperação = Uma sociedade melhor.</p>
     </div>
 
 </div>
